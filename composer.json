@@ -1,0 +1,22 @@
+{
+    "name": "an8val66/ictool",
+    "description": "Utility for Icontrole applications",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anderson Borges",
+            "email": "andersonvaleriano.borges@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ICTool\\": "src/library"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "ext-phalcon": "^3.3",
+        "corneltek/getoptionkit": "^2.5.1"
+    },
+    "bin": ["ictool.php"]
+}
