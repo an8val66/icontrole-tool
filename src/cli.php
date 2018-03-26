@@ -14,7 +14,6 @@ if (!defined('ENV')) {
 
 ini_set('user_agent', 'ICTool - IControle command line tool');
 
-include dirname(__DIR__) . '/vendor/autoload.php';
 require __DIR__ . '/app/config/services.php';
 
 $loader = new \Phalcon\Loader();
