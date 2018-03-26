@@ -2,8 +2,8 @@
 
 class Skeleton
 {
-    const SKELETON_URL    = 'https://github.com/an8val66/phalconit/archive/master.zip';
-    const API_LAST_COMMIT = 'https://api.github.com/repos/an8val66/phalconit/commits?per_page=1';
+    const SKELETON_URL    = 'https://github.com/an8val66/icontrole-skeleton/archive/master.zip';
+    const API_LAST_COMMIT = 'https://api.github.com/repos/an8val66/icontrole-skeleton/commits?per_page=1';
     const SKELETON_FILE   = 'PhICS';
 
     /**
